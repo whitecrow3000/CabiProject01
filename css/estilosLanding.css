@@ -17,4 +17,8 @@ footer{
     main figure{
         text-align: center
     }
+    body {
+        font-family: 'PT Sans', sans-serif;
+        background-color: paleturquoise
+ }
 }
