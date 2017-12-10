@@ -1,5 +1,24 @@
+section{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+section article {
+    background: red;
+    height: 200px;
+    width: 200px;
+}
+@media screen and (max-width:768px){
+    section article{
+        margin: 15px 0;
+    }
+}
+/*
 section article {
 background: red;
 height: 200px;
+/*margin: arriba / derecha / ajo / izquierda*/
+/*margin: 0 20px;
+float: left;
 width: 200px;
-}
+}*/
